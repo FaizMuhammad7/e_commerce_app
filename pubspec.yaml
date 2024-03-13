@@ -1,0 +1,55 @@
+name: e_commerce_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.6
+  firebase_auth: ^4.17.7
+  firebase_storage: ^11.6.8
+  firebase_core: ^2.26.0
+  firebase_database: ^10.4.8
+  cloud_firestore: ^4.15.7
+  get: ^4.6.6
+  carousel_slider: ^4.2.1
+  google_sign_in: ^6.2.1
+  flutter_easyloading: ^3.0.5
+  cached_network_image: ^3.3.1
+  intl: ^0.19.0
+  fluttertoast: ^8.2.4
+  image_picker: ^1.0.7
+  flutter_swipe_action_cell: ^3.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+#  flutter_lints: ^3.0.0
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/banners/
+
+  fonts:
+    - family: Poppins_Light
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+    - family: Poppins_Regular
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+    - family: Poppins_SemiBold
+      fonts:
+        - asset: assets/fonts/Poppins-SemiBold.ttf
